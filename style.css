@@ -1,9 +1,5 @@
-body{
-
-    color: white;
-}
 .container{
-    border: solid grey 3px;
+    border: solid white 3px;
     border-radius: 30px;
     height: 150px;
     display: inline-flex;
@@ -14,5 +10,5 @@ body{
 
 h1{
     position: relative;
-
+    
 }
