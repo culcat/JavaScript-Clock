@@ -3,6 +3,7 @@ function calculateTime(){
     var date = new Date();
     var dayNumber = date.getDate();
     //var dayNames = date.getUTCMonth();
+    var sec = date.getSeconds();
     var hour = date.getHours();
     var minute = date.getMinutes();
     const month = ["Января","Февраля","Марта","Апреля","Мая","Июня","Июля","Августа","Сентября","Октября","Ноября","Декабря"];
@@ -22,7 +23,7 @@ function calculateTime(){
     document.getElementById("minute").innerHTML = minute;
     //document.getElementById("pmam").innerHTML = pmam;
     document.getElementById("dayToday").innerHTML = name;
-
+document.getElementById("sec").innerHTML = sec;
 
 
     setTimeout(calculateTime, 200);
