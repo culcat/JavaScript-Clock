@@ -1,0 +1,10 @@
+{
+"short_name":"J-C",
+"name":"JavaScript-Clock",
+"description":"Clock on JS",
+"start_url":"https://culcat.github.io/JavaScript-Clock/",
+"display": "standalone",
+"background_color":"#000",
+"theme_color":"#fff",
+"scope":"/"
+}
